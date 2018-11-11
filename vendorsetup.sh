@@ -1,1 +1,1 @@
-add_lunch_combo lineage_merlin-userdebug
+add_lunch_combo pixys_merlin-userdebug

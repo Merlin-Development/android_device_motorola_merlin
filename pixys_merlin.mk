@@ -15,6 +15,9 @@
 
 $(call inherit-product, device/motorola/merlin/full_merlin.mk)
 
+# Inherit some common pixys stuff.
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+
 # Bootanimation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
 
@@ -25,7 +28,7 @@ TARGET_SCREEN_HEIGHT := 1280
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlin
-PRODUCT_NAME := lineage_merlin
+PRODUCT_NAME := pixys_merlin
 PRODUCT_MODEL := MotoG3-TE
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
